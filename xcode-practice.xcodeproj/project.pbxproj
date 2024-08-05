@@ -37,14 +37,14 @@
 
 /* Begin PBXFileReference section */
 		BF53FB9C2C5FD7C600FAFF4A /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
-		BFC73A262C5FCA4200AF4DBA /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC73A262C5FCA4200AF4DBA /* xcode-practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "xcode-practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC73A292C5FCA4200AF4DBA /* testApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testApp.swift; sourceTree = "<group>"; };
 		BFC73A2B2C5FCA4200AF4DBA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BFC73A2D2C5FCA4500AF4DBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFC73A302C5FCA4500AF4DBA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		BFC73A362C5FCA4500AF4DBA /* testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC73A362C5FCA4500AF4DBA /* xcode-practiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "xcode-practiceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC73A3A2C5FCA4500AF4DBA /* testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testTests.swift; sourceTree = "<group>"; };
-		BFC73A402C5FCA4500AF4DBA /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC73A402C5FCA4500AF4DBA /* xcode-practiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "xcode-practiceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC73A442C5FCA4500AF4DBA /* testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUITests.swift; sourceTree = "<group>"; };
 		BFC73A462C5FCA4500AF4DBA /* testUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BFC73A532C5FCBDC00AF4DBA /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
@@ -88,9 +88,9 @@
 		BFC73A272C5FCA4200AF4DBA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BFC73A262C5FCA4200AF4DBA /* test.app */,
-				BFC73A362C5FCA4500AF4DBA /* testTests.xctest */,
-				BFC73A402C5FCA4500AF4DBA /* testUITests.xctest */,
+				BFC73A262C5FCA4200AF4DBA /* xcode-practice.app */,
+				BFC73A362C5FCA4500AF4DBA /* xcode-practiceTests.xctest */,
+				BFC73A402C5FCA4500AF4DBA /* xcode-practiceUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,9 +136,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BFC73A252C5FCA4200AF4DBA /* test */ = {
+		BFC73A252C5FCA4200AF4DBA /* xcode-practice */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BFC73A4A2C5FCA4500AF4DBA /* Build configuration list for PBXNativeTarget "test" */;
+			buildConfigurationList = BFC73A4A2C5FCA4500AF4DBA /* Build configuration list for PBXNativeTarget "xcode-practice" */;
 			buildPhases = (
 				BFC73A222C5FCA4200AF4DBA /* Sources */,
 				BFC73A232C5FCA4200AF4DBA /* Frameworks */,
@@ -148,14 +148,14 @@
 			);
 			dependencies = (
 			);
-			name = test;
+			name = "xcode-practice";
 			productName = test;
-			productReference = BFC73A262C5FCA4200AF4DBA /* test.app */;
+			productReference = BFC73A262C5FCA4200AF4DBA /* xcode-practice.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BFC73A352C5FCA4500AF4DBA /* testTests */ = {
+		BFC73A352C5FCA4500AF4DBA /* xcode-practiceTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BFC73A4D2C5FCA4500AF4DBA /* Build configuration list for PBXNativeTarget "testTests" */;
+			buildConfigurationList = BFC73A4D2C5FCA4500AF4DBA /* Build configuration list for PBXNativeTarget "xcode-practiceTests" */;
 			buildPhases = (
 				BFC73A322C5FCA4500AF4DBA /* Sources */,
 				BFC73A332C5FCA4500AF4DBA /* Frameworks */,
@@ -166,14 +166,14 @@
 			dependencies = (
 				BFC73A382C5FCA4500AF4DBA /* PBXTargetDependency */,
 			);
-			name = testTests;
+			name = "xcode-practiceTests";
 			productName = testTests;
-			productReference = BFC73A362C5FCA4500AF4DBA /* testTests.xctest */;
+			productReference = BFC73A362C5FCA4500AF4DBA /* xcode-practiceTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		BFC73A3F2C5FCA4500AF4DBA /* testUITests */ = {
+		BFC73A3F2C5FCA4500AF4DBA /* xcode-practiceUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BFC73A502C5FCA4500AF4DBA /* Build configuration list for PBXNativeTarget "testUITests" */;
+			buildConfigurationList = BFC73A502C5FCA4500AF4DBA /* Build configuration list for PBXNativeTarget "xcode-practiceUITests" */;
 			buildPhases = (
 				BFC73A3C2C5FCA4500AF4DBA /* Sources */,
 				BFC73A3D2C5FCA4500AF4DBA /* Frameworks */,
@@ -184,9 +184,9 @@
 			dependencies = (
 				BFC73A422C5FCA4500AF4DBA /* PBXTargetDependency */,
 			);
-			name = testUITests;
+			name = "xcode-practiceUITests";
 			productName = testUITests;
-			productReference = BFC73A402C5FCA4500AF4DBA /* testUITests.xctest */;
+			productReference = BFC73A402C5FCA4500AF4DBA /* xcode-practiceUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -212,7 +212,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BFC73A212C5FCA4200AF4DBA /* Build configuration list for PBXProject "test" */;
+			buildConfigurationList = BFC73A212C5FCA4200AF4DBA /* Build configuration list for PBXProject "xcode-practice" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -225,9 +225,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BFC73A252C5FCA4200AF4DBA /* test */,
-				BFC73A352C5FCA4500AF4DBA /* testTests */,
-				BFC73A3F2C5FCA4500AF4DBA /* testUITests */,
+				BFC73A252C5FCA4200AF4DBA /* xcode-practice */,
+				BFC73A352C5FCA4500AF4DBA /* xcode-practiceTests */,
+				BFC73A3F2C5FCA4500AF4DBA /* xcode-practiceUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -292,12 +292,12 @@
 /* Begin PBXTargetDependency section */
 		BFC73A382C5FCA4500AF4DBA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BFC73A252C5FCA4200AF4DBA /* test */;
+			target = BFC73A252C5FCA4200AF4DBA /* xcode-practice */;
 			targetProxy = BFC73A372C5FCA4500AF4DBA /* PBXContainerItemProxy */;
 		};
 		BFC73A422C5FCA4500AF4DBA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BFC73A252C5FCA4200AF4DBA /* test */;
+			target = BFC73A252C5FCA4200AF4DBA /* xcode-practice */;
 			targetProxy = BFC73A412C5FCA4500AF4DBA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -493,7 +493,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/test";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xcode-practice.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/xcode-practice";
 			};
 			name = Debug;
 		};
@@ -512,7 +512,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/test";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xcode-practice.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/xcode-practice";
 			};
 			name = Release;
 		};
@@ -553,7 +553,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BFC73A212C5FCA4200AF4DBA /* Build configuration list for PBXProject "test" */ = {
+		BFC73A212C5FCA4200AF4DBA /* Build configuration list for PBXProject "xcode-practice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BFC73A482C5FCA4500AF4DBA /* Debug */,
@@ -562,7 +562,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BFC73A4A2C5FCA4500AF4DBA /* Build configuration list for PBXNativeTarget "test" */ = {
+		BFC73A4A2C5FCA4500AF4DBA /* Build configuration list for PBXNativeTarget "xcode-practice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BFC73A4B2C5FCA4500AF4DBA /* Debug */,
@@ -571,7 +571,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BFC73A4D2C5FCA4500AF4DBA /* Build configuration list for PBXNativeTarget "testTests" */ = {
+		BFC73A4D2C5FCA4500AF4DBA /* Build configuration list for PBXNativeTarget "xcode-practiceTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BFC73A4E2C5FCA4500AF4DBA /* Debug */,
@@ -580,7 +580,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BFC73A502C5FCA4500AF4DBA /* Build configuration list for PBXNativeTarget "testUITests" */ = {
+		BFC73A502C5FCA4500AF4DBA /* Build configuration list for PBXNativeTarget "xcode-practiceUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BFC73A512C5FCA4500AF4DBA /* Debug */,
