@@ -12,9 +12,9 @@
 		BFC73A2C2C5FCA4200AF4DBA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC73A2B2C5FCA4200AF4DBA /* ContentView.swift */; };
 		BFC73A2E2C5FCA4500AF4DBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFC73A2D2C5FCA4500AF4DBA /* Assets.xcassets */; };
 		BFC73A312C5FCA4500AF4DBA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFC73A302C5FCA4500AF4DBA /* Preview Assets.xcassets */; };
-		BFC73A3B2C5FCA4500AF4DBA /* testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC73A3A2C5FCA4500AF4DBA /* testTests.swift */; };
-		BFC73A452C5FCA4500AF4DBA /* testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC73A442C5FCA4500AF4DBA /* testUITests.swift */; };
-		BFC73A472C5FCA4500AF4DBA /* testUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC73A462C5FCA4500AF4DBA /* testUITestsLaunchTests.swift */; };
+		BFC73A3B2C5FCA4500AF4DBA /* xcode-practiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC73A3A2C5FCA4500AF4DBA /* xcode-practiceTests.swift */; };
+		BFC73A452C5FCA4500AF4DBA /* xcode-practiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC73A442C5FCA4500AF4DBA /* xcode-practiceUITests.swift */; };
+		BFC73A472C5FCA4500AF4DBA /* xcode-practiceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC73A462C5FCA4500AF4DBA /* xcode-practiceUITestsLaunchTests.swift */; };
 		BFC73A542C5FCBDC00AF4DBA /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC73A532C5FCBDC00AF4DBA /* TextView.swift */; };
 /* End PBXBuildFile section */
 
@@ -43,10 +43,10 @@
 		BFC73A2D2C5FCA4500AF4DBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFC73A302C5FCA4500AF4DBA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BFC73A362C5FCA4500AF4DBA /* xcode-practiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "xcode-practiceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFC73A3A2C5FCA4500AF4DBA /* testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testTests.swift; sourceTree = "<group>"; };
+		BFC73A3A2C5FCA4500AF4DBA /* xcode-practiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "xcode-practiceTests.swift"; sourceTree = "<group>"; };
 		BFC73A402C5FCA4500AF4DBA /* xcode-practiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "xcode-practiceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFC73A442C5FCA4500AF4DBA /* testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUITests.swift; sourceTree = "<group>"; };
-		BFC73A462C5FCA4500AF4DBA /* testUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BFC73A442C5FCA4500AF4DBA /* xcode-practiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "xcode-practiceUITests.swift"; sourceTree = "<group>"; };
+		BFC73A462C5FCA4500AF4DBA /* xcode-practiceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "xcode-practiceUITestsLaunchTests.swift"; sourceTree = "<group>"; };
 		BFC73A532C5FCBDC00AF4DBA /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,9 +78,9 @@
 		BFC73A1D2C5FCA4200AF4DBA = {
 			isa = PBXGroup;
 			children = (
-				BFC73A282C5FCA4200AF4DBA /* test */,
-				BFC73A392C5FCA4500AF4DBA /* testTests */,
-				BFC73A432C5FCA4500AF4DBA /* testUITests */,
+				BFC73A282C5FCA4200AF4DBA /* xcode-practice */,
+				BFC73A392C5FCA4500AF4DBA /* xcode-practiceTests */,
+				BFC73A432C5FCA4500AF4DBA /* xcode-practiceUITests */,
 				BFC73A272C5FCA4200AF4DBA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,7 +95,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BFC73A282C5FCA4200AF4DBA /* test */ = {
+		BFC73A282C5FCA4200AF4DBA /* xcode-practice */ = {
 			isa = PBXGroup;
 			children = (
 				BFC73A292C5FCA4200AF4DBA /* testApp.swift */,
@@ -105,7 +105,7 @@
 				BFC73A532C5FCBDC00AF4DBA /* TextView.swift */,
 				BF53FB9C2C5FD7C600FAFF4A /* WebView.swift */,
 			);
-			path = test;
+			path = "xcode-practice";
 			sourceTree = "<group>";
 		};
 		BFC73A2F2C5FCA4500AF4DBA /* Preview Content */ = {
@@ -116,21 +116,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		BFC73A392C5FCA4500AF4DBA /* testTests */ = {
+		BFC73A392C5FCA4500AF4DBA /* xcode-practiceTests */ = {
 			isa = PBXGroup;
 			children = (
-				BFC73A3A2C5FCA4500AF4DBA /* testTests.swift */,
+				BFC73A3A2C5FCA4500AF4DBA /* xcode-practiceTests.swift */,
 			);
-			path = testTests;
+			path = "xcode-practiceTests";
 			sourceTree = "<group>";
 		};
-		BFC73A432C5FCA4500AF4DBA /* testUITests */ = {
+		BFC73A432C5FCA4500AF4DBA /* xcode-practiceUITests */ = {
 			isa = PBXGroup;
 			children = (
-				BFC73A442C5FCA4500AF4DBA /* testUITests.swift */,
-				BFC73A462C5FCA4500AF4DBA /* testUITestsLaunchTests.swift */,
+				BFC73A442C5FCA4500AF4DBA /* xcode-practiceUITests.swift */,
+				BFC73A462C5FCA4500AF4DBA /* xcode-practiceUITestsLaunchTests.swift */,
 			);
-			path = testUITests;
+			path = "xcode-practiceUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,7 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFC73A3B2C5FCA4500AF4DBA /* testTests.swift in Sources */,
+				BFC73A3B2C5FCA4500AF4DBA /* xcode-practiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +282,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFC73A472C5FCA4500AF4DBA /* testUITestsLaunchTests.swift in Sources */,
-				BFC73A452C5FCA4500AF4DBA /* testUITests.swift in Sources */,
+				BFC73A472C5FCA4500AF4DBA /* xcode-practiceUITestsLaunchTests.swift in Sources */,
+				BFC73A452C5FCA4500AF4DBA /* xcode-practiceUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
