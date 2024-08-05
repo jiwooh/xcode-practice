@@ -40,6 +40,15 @@ struct ContentView: View {
             .cornerRadius(8)
             .padding(10)
         }
+        NavigationLink(destination: StackView()) {
+          Text("StackView")
+            .font(.system(size: 20))
+            .fontWeight(.bold)
+            .foregroundColor(.white)
+            .background(.tint)
+            .cornerRadius(8)
+            .padding(10)
+        }
       }
       .containerRelativeFrame([.horizontal, .vertical])
       .background(isActivated ? Color.white : Color(hex: 0xd8a1fb))
