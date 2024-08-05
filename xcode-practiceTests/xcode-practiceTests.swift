@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import test
+@testable import xcode_practice
 
 final class testTests: XCTestCase {
 
