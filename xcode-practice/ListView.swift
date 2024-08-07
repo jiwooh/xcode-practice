@@ -10,15 +10,19 @@ import SwiftUI
 struct ListView: View {
   var body: some View {
     List {
-      Section(header: Text("9V Bolts")) {
-        ForEach(1...4, id: \.self) { itemIndex in
-          SmallCard(icon: "bolt.fill", title: "Bolt \(itemIndex)", content: "9V", bgColor: Color.yellow)
+      Section(header: Text("9V Batteries")) {
+        ForEach(1...3, id: \.self) { itemIndex in
+          SmallCard(icon: "bolt.fill", title: "Battery \(itemIndex)", content: "9V", bgColor: Color.yellow)
             .listRowSeparator(.hidden)
         }
+        SmallCard(icon: "bolt.fill", title: "Battery 4 (Disabled)", content: "9V", bgColor: Color.gray)
+          .listRowSeparator(.hidden)
       }
-      Section(header: Text("4.5V Bolts")) {
-        ForEach(1...4, id: \.self) { itemIndex in
-          SmallCard(icon: "bolt.fill", title: "Bolt \(itemIndex)", content: "4.5V", bgColor: Color.init(hex: 0xffaa22))
+      Section(header: Text("1.5V Batteries")) {
+        ForEach(1...3, id: \.self) { itemIndex in
+          SmallCard(icon: "bolt.fill", title: "Battery \(2 * itemIndex - 1)", content: "1.5V", bgColor: Color.init(hex: 0xffaa22))
+            .listRowSeparator(.hidden)
+          SmallCard(icon: "bolt.fill", title: "Battery \(2 * itemIndex) (Disabled)", content: "1.5V", bgColor: Color.gray)
             .listRowSeparator(.hidden)
         }
       }
