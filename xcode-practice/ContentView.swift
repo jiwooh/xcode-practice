@@ -40,6 +40,7 @@ struct ContentView: View {
         }
         .padding()
         ScrollView {
+          NavigationLinkButton(destination: TextFieldView(), label: "TextFieldView")
           NavigationLinkButton(destination: ButtonView(), label: "ButtonView")
           NavigationLinkButton(destination: TabViewA(), label: "TabView")
           NavigationLinkButton(destination: GeometryReaderView(), label: "GeometryReaderView")
