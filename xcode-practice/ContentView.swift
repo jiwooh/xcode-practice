@@ -11,8 +11,8 @@ struct ContentView: View {
   @State private var isActivated: Bool = false
   
   var body: some View {
-    NavigationStack {
-      VStack {
+    NavigationView {
+      VStack(spacing: 10) {
         VStack {
           Image(systemName: "globe")
             .imageScale(.large)
@@ -24,34 +24,59 @@ struct ContentView: View {
         .padding()
         NavigationLink(destination: TextView(isActivated: $isActivated)) {
           Text("TextView")
-            .font(.system(size: 20))
+            .font(.system(size: 16))
             .fontWeight(.bold)
             .foregroundColor(.white)
-            .background(.tint)
-            .cornerRadius(8)
             .padding(10)
+            .frame(width: 120)
+            .background(.tint)
+            .cornerRadius(20)
         }
         NavigationLink(destination: WebView(url: "https://google.com")) {
           Text("WebView")
-            .font(.system(size: 20))
+            .font(.system(size: 16))
             .fontWeight(.bold)
             .foregroundColor(.white)
-            .background(.tint)
-            .cornerRadius(8)
             .padding(10)
+            .frame(width: 120)
+            .background(.tint)
+            .cornerRadius(20)
         }
         NavigationLink(destination: StackView()) {
           Text("StackView")
-            .font(.system(size: 20))
+            .font(.system(size: 16))
             .fontWeight(.bold)
             .foregroundColor(.white)
-            .background(.tint)
-            .cornerRadius(8)
             .padding(10)
+            .frame(width: 120)
+            .background(.tint)
+            .cornerRadius(20)
+        }
+        NavigationLink(destination: CardView()) {
+          Text("CardView")
+            .font(.system(size: 16))
+            .fontWeight(.bold)
+            .foregroundColor(.white)
+            .padding(10)
+            .frame(width: 120)
+            .background(.tint)
+            .cornerRadius(20)
+        }
+        NavigationLink(destination: ListView()) {
+          Text("ListView")
+            .font(.system(size: 16))
+            .fontWeight(.bold)
+            .foregroundColor(.white)
+            .padding(10)
+            .frame(width: 120)
+            .background(.tint)
+            .cornerRadius(20)
         }
       }
       .containerRelativeFrame([.horizontal, .vertical])
       .background(isActivated ? Color.white : Color(hex: 0xd8a1fb))
+      .navigationBarHidden(true)
+      .navigationBarTitle("ContentView")
     }
     .onTapGesture {
       self.isActivated.toggle()

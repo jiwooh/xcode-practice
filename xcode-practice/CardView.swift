@@ -11,22 +11,6 @@ struct CardView: View {
   var body: some View {
     ZStack(alignment: .bottomTrailing) {
       VStack(alignment: .leading) {
-//        HStack {
-//          Image(systemName: "menucard.fill")
-//            .font(.title)
-//          Spacer()
-//          Image(systemName: "person.circle")
-//            .font(.largeTitle)
-//        }
-//        .padding(.horizontal, 20)
-//        .padding(.bottom, 3)
-        
-        Text("CardView")
-          .font(.system(size: 36))
-          .fontWeight(.black)
-          .padding(.horizontal, 20)
-          .padding(.bottom, -5)
-        
         ScrollView {
           VStack {
             BigCard()
@@ -56,7 +40,7 @@ struct CardView: View {
         .padding(.trailing, 10)
         .shadow(radius: 20)
     }
-    .navigationBarTitle("CardView")
+    .navigationBarTitle("CardView", displayMode: .large)
   }
 }
 
