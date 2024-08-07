@@ -25,6 +25,7 @@ struct CardView: View {
           .font(.system(size: 36))
           .fontWeight(.black)
           .padding(.horizontal, 20)
+          .padding(.bottom, -5)
         
         ScrollView {
           VStack {
@@ -55,6 +56,7 @@ struct CardView: View {
         .padding(.trailing, 10)
         .shadow(radius: 20)
     }
+    .navigationBarTitle("CardView")
   }
 }
 
