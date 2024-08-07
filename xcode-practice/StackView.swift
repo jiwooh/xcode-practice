@@ -11,6 +11,14 @@ struct StackView: View {
   @State private var isActivated: Bool = false
   
   var body: some View {
+    VStack(alignment: .leading) {
+      Divider().opacity(0)
+      Text("StackView")
+        .font(.system(size: 36))
+        .fontWeight(.black)
+        .padding(.horizontal, 20)
+    }
+    
     VStack(alignment: .leading, spacing: 20) {
       Divider().opacity(0)
       Rectangle()
