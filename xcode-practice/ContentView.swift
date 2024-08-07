@@ -72,6 +72,26 @@ struct ContentView: View {
             .background(.tint)
             .cornerRadius(20)
         }
+        NavigationLink(destination: GeometryReaderView()) {
+          Text("GeometryReaderView")
+            .font(.system(size: 16))
+            .fontWeight(.bold)
+            .foregroundColor(.white)
+            .padding(10)
+            .frame(width: 240)
+            .background(.tint)
+            .cornerRadius(20)
+        }
+        NavigationLink(destination: TabViewA()) {
+          Text("TabView")
+            .font(.system(size: 16))
+            .fontWeight(.bold)
+            .foregroundColor(.white)
+            .padding(10)
+            .frame(width: 120)
+            .background(.tint)
+            .cornerRadius(20)
+        }
       }
       .containerRelativeFrame([.horizontal, .vertical])
       .background(isActivated ? Color.white : Color(hex: 0xd8a1fb))
