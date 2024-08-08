@@ -60,14 +60,13 @@ struct TextFieldView: View {
       }
       .alert(isPresented: $alert) {
         Alert(
-          title:
-          Text("Sample message!"),
-          message:
-            Text(self.uname == "" && self.pwd == "" ? "" : "\(uname): \(pwd)")
+          title: Text("Sample message!"),
+          message: Text(self.uname == "" && self.pwd == "" ? "" : "\(uname): \(pwd)")
         )
       }
     }
     .padding(.horizontal, 50)
+    .navigationBarTitle("TextFieldView", displayMode: .large)
   }
 }
 

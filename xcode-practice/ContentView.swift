@@ -14,12 +14,13 @@ struct NavigationLinkButton<Destination: View>: View {
     var body: some View {
         NavigationLink(destination: destination) {
             Text(label)
-                .font(.system(size: 16))
-                .fontWeight(.bold)
-                .foregroundColor(.white)
-                .padding()
-                .background(.tint)
-                .cornerRadius(20)
+              .font(.system(size: 16))
+              .fontWeight(.bold)
+              .foregroundColor(.white)
+              .frame(height: 6)
+              .padding()
+              .background(.tint)
+              .cornerRadius(20)
         }
     }
 }
@@ -40,6 +41,7 @@ struct ContentView: View {
         }
         .padding()
         ScrollView {
+          NavigationLinkButton(destination: PickerView(), label: "PickerView")
           NavigationLinkButton(destination: TextFieldView(), label: "TextFieldView")
           NavigationLinkButton(destination: ButtonView(), label: "ButtonView")
           NavigationLinkButton(destination: TabViewA(), label: "TabView")
