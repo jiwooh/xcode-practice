@@ -56,7 +56,7 @@ struct MenuView: View {
               Section {
                 MyButton(title: "Select", icon: "checkmark.circle", showAlert: $showAlert, buttonName: $buttonName)
                 MyButton(title: "New Folder", icon: "folder.badge.plus", showAlert: $showAlert, buttonName: $buttonName)
-                MyButton(title: "Scan Documents", icon: "document.viewfinder", showAlert: $showAlert, buttonName: $buttonName)
+                MyButton(title: "Scan Documents", icon: "doc.viewfinder", showAlert: $showAlert, buttonName: $buttonName)
                 MyButton(title: "Connect to Server", icon: "rectangle.connected.to.line.below", showAlert: $showAlert, buttonName: $buttonName)
               }
               Picker(selection: $sel, label: Text("Select view")) {
