@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF16734A2C64D35F00F7DBFA /* DeeplinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1673492C64D35F00F7DBFA /* DeeplinkView.swift */; };
 		BF3C55CE2C60E59E00D82AC3 /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3C55CD2C60E59E00D82AC3 /* StackView.swift */; };
 		BF3C55D82C633A4000D82AC3 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3C55D72C633A4000D82AC3 /* ListView.swift */; };
 		BF3C55DC2C633A5A00D82AC3 /* SmallCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3C55D92C633A5A00D82AC3 /* SmallCard.swift */; };
@@ -43,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF1673482C64D2A300F7DBFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BF1673492C64D35F00F7DBFA /* DeeplinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkView.swift; sourceTree = "<group>"; };
 		BF3C55CD2C60E59E00D82AC3 /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
 		BF3C55D72C633A4000D82AC3 /* ListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		BF3C55D92C633A5A00D82AC3 /* SmallCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmallCard.swift; sourceTree = "<group>"; };
@@ -110,10 +113,12 @@
 		BFC73A282C5FCA4200AF4DBA /* xcode-practice */ = {
 			isa = PBXGroup;
 			children = (
+				BF1673482C64D2A300F7DBFA /* Info.plist */,
 				BF3C55E72C63965700D82AC3 /* PickerView.swift */,
 				BF3C55E52C6370C200D82AC3 /* TextFieldView.swift */,
 				BF3C55D72C633A4000D82AC3 /* ListView.swift */,
 				BFC73A292C5FCA4200AF4DBA /* testApp.swift */,
+				BF1673492C64D35F00F7DBFA /* DeeplinkView.swift */,
 				BFC73A2B2C5FCA4200AF4DBA /* ContentView.swift */,
 				BF3C55E32C63636200D82AC3 /* ButtonView.swift */,
 				BF3C55E12C6351CA00D82AC3 /* TabView.swift */,
@@ -275,6 +280,7 @@
 				BF3C55DE2C633A5A00D82AC3 /* CardView.swift in Sources */,
 				BFC73A542C5FCBDC00AF4DBA /* TextView.swift in Sources */,
 				BF3C55E02C6345D600D82AC3 /* GeometryReaderView.swift in Sources */,
+				BF16734A2C64D35F00F7DBFA /* DeeplinkView.swift in Sources */,
 				BF53FB9D2C5FD7C600FAFF4A /* WebView.swift in Sources */,
 				BF3C55D82C633A4000D82AC3 /* ListView.swift in Sources */,
 				BF3C55DD2C633A5A00D82AC3 /* BigCard.swift in Sources */,
@@ -445,6 +451,7 @@
 				DEVELOPMENT_TEAM = 3SMZ9SPNH4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "xcode-practice/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -474,6 +481,7 @@
 				DEVELOPMENT_TEAM = 3SMZ9SPNH4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "xcode-practice/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
