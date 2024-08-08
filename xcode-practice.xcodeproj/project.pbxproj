@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		BF16734A2C64D35F00F7DBFA /* DeeplinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1673492C64D35F00F7DBFA /* DeeplinkView.swift */; };
+		BF1ED7282C65067F001C097F /* DiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1ED7272C65067F001C097F /* DiceView.swift */; };
+		BF1ED72A2C650766001C097F /* DiceState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1ED7292C650766001C097F /* DiceState.swift */; };
+		BF1ED72C2C650777001C097F /* DiceAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1ED72B2C650777001C097F /* DiceAction.swift */; };
+		BF1ED72E2C6507A4001C097F /* DiceReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1ED72D2C6507A4001C097F /* DiceReducer.swift */; };
+		BF1ED7312C65088C001C097F /* DiceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1ED7302C65088C001C097F /* DiceStore.swift */; };
 		BF3C55CE2C60E59E00D82AC3 /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3C55CD2C60E59E00D82AC3 /* StackView.swift */; };
 		BF3C55D82C633A4000D82AC3 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3C55D72C633A4000D82AC3 /* ListView.swift */; };
 		BF3C55DC2C633A5A00D82AC3 /* SmallCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3C55D92C633A5A00D82AC3 /* SmallCard.swift */; };
@@ -47,6 +52,11 @@
 /* Begin PBXFileReference section */
 		BF1673482C64D2A300F7DBFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		BF1673492C64D35F00F7DBFA /* DeeplinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkView.swift; sourceTree = "<group>"; };
+		BF1ED7272C65067F001C097F /* DiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceView.swift; sourceTree = "<group>"; };
+		BF1ED7292C650766001C097F /* DiceState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceState.swift; sourceTree = "<group>"; };
+		BF1ED72B2C650777001C097F /* DiceAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceAction.swift; sourceTree = "<group>"; };
+		BF1ED72D2C6507A4001C097F /* DiceReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceReducer.swift; sourceTree = "<group>"; };
+		BF1ED7302C65088C001C097F /* DiceStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceStore.swift; sourceTree = "<group>"; };
 		BF3C55CD2C60E59E00D82AC3 /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
 		BF3C55D72C633A4000D82AC3 /* ListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		BF3C55D92C633A5A00D82AC3 /* SmallCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmallCard.swift; sourceTree = "<group>"; };
@@ -94,6 +104,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF1ED72F2C6507E5001C097F /* DiceView */ = {
+			isa = PBXGroup;
+			children = (
+				BF1ED7272C65067F001C097F /* DiceView.swift */,
+				BF1ED7292C650766001C097F /* DiceState.swift */,
+				BF1ED72B2C650777001C097F /* DiceAction.swift */,
+				BF1ED72D2C6507A4001C097F /* DiceReducer.swift */,
+				BF1ED7302C65088C001C097F /* DiceStore.swift */,
+			);
+			path = DiceView;
+			sourceTree = "<group>";
+		};
 		BFC73A1D2C5FCA4200AF4DBA = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +137,7 @@
 		BFC73A282C5FCA4200AF4DBA /* xcode-practice */ = {
 			isa = PBXGroup;
 			children = (
+				BF1ED72F2C6507E5001C097F /* DiceView */,
 				BFD6F9A42C64F31A00575095 /* MenuView.swift */,
 				BF1673482C64D2A300F7DBFA /* Info.plist */,
 				BF3C55E72C63965700D82AC3 /* PickerView.swift */,
@@ -277,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF3C55E22C6351CA00D82AC3 /* TabView.swift in Sources */,
+				BF1ED72C2C650777001C097F /* DiceAction.swift in Sources */,
 				BF3C55DC2C633A5A00D82AC3 /* SmallCard.swift in Sources */,
 				BF3C55E42C63636200D82AC3 /* ButtonView.swift in Sources */,
 				BF3C55E62C6370C200D82AC3 /* TextFieldView.swift in Sources */,
@@ -286,8 +310,12 @@
 				BF16734A2C64D35F00F7DBFA /* DeeplinkView.swift in Sources */,
 				BF53FB9D2C5FD7C600FAFF4A /* WebView.swift in Sources */,
 				BFD6F9A52C64F31A00575095 /* MenuView.swift in Sources */,
+				BF1ED72A2C650766001C097F /* DiceState.swift in Sources */,
+				BF1ED7282C65067F001C097F /* DiceView.swift in Sources */,
+				BF1ED7312C65088C001C097F /* DiceStore.swift in Sources */,
 				BF3C55D82C633A4000D82AC3 /* ListView.swift in Sources */,
 				BF3C55DD2C633A5A00D82AC3 /* BigCard.swift in Sources */,
+				BF1ED72E2C6507A4001C097F /* DiceReducer.swift in Sources */,
 				BFC73A2C2C5FCA4200AF4DBA /* ContentView.swift in Sources */,
 				BFC73A2A2C5FCA4200AF4DBA /* testApp.swift in Sources */,
 				BF3C55E82C63965700D82AC3 /* PickerView.swift in Sources */,

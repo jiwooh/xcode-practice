@@ -28,6 +28,11 @@ struct NavigationLinkButton<Destination: View>: View {
 struct ContentView: View {
   @State private var isActivated: Bool = false
   
+  let store = DiceStore(
+    state: DiceState.init(currentDice: 1),
+    reducer: DiceReducer
+  )
+  
   var body: some View {
     NavigationStack {
       VStack(spacing: 10) {
@@ -42,6 +47,7 @@ struct ContentView: View {
         }
         .padding()
         ScrollView {
+          NavigationLinkButton(destination: DiceView().environmentObject(store), label: "DiceView")
           NavigationLinkButton(destination: MenuView(), label: "MenuView")
           NavigationLinkButton(destination: DeeplinkView(), label: "DeeplinkView")
           NavigationLinkButton(destination: PickerView(), label: "PickerView")
