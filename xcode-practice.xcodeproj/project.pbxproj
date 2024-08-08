@@ -24,6 +24,7 @@
 		BFC73A2E2C5FCA4500AF4DBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFC73A2D2C5FCA4500AF4DBA /* Assets.xcassets */; };
 		BFC73A312C5FCA4500AF4DBA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFC73A302C5FCA4500AF4DBA /* Preview Assets.xcassets */; };
 		BFC73A542C5FCBDC00AF4DBA /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC73A532C5FCBDC00AF4DBA /* TextView.swift */; };
+		BFD6F9A52C64F31A00575095 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD6F9A42C64F31A00575095 /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		BFC73A362C5FCA4500AF4DBA /* xcode-practiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "xcode-practiceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC73A402C5FCA4500AF4DBA /* xcode-practiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "xcode-practiceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC73A532C5FCBDC00AF4DBA /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		BFD6F9A42C64F31A00575095 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 		BFC73A282C5FCA4200AF4DBA /* xcode-practice */ = {
 			isa = PBXGroup;
 			children = (
+				BFD6F9A42C64F31A00575095 /* MenuView.swift */,
 				BF1673482C64D2A300F7DBFA /* Info.plist */,
 				BF3C55E72C63965700D82AC3 /* PickerView.swift */,
 				BF3C55E52C6370C200D82AC3 /* TextFieldView.swift */,
@@ -282,6 +285,7 @@
 				BF3C55E02C6345D600D82AC3 /* GeometryReaderView.swift in Sources */,
 				BF16734A2C64D35F00F7DBFA /* DeeplinkView.swift in Sources */,
 				BF53FB9D2C5FD7C600FAFF4A /* WebView.swift in Sources */,
+				BFD6F9A52C64F31A00575095 /* MenuView.swift in Sources */,
 				BF3C55D82C633A4000D82AC3 /* ListView.swift in Sources */,
 				BF3C55DD2C633A5A00D82AC3 /* BigCard.swift in Sources */,
 				BFC73A2C2C5FCA4200AF4DBA /* ContentView.swift in Sources */,
