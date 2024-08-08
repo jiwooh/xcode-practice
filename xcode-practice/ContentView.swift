@@ -29,7 +29,7 @@ struct ContentView: View {
   @State private var isActivated: Bool = false
   
   var body: some View {
-    NavigationView {
+    NavigationStack {
       VStack(spacing: 10) {
         VStack {
           Image(systemName: "globe")
@@ -38,9 +38,11 @@ struct ContentView: View {
           Text("Hello, world!")
             .font(.system(size: 40, design: .rounded))
             .fontWeight(.heavy)
+            .foregroundColor(.black)
         }
         .padding()
         ScrollView {
+          NavigationLinkButton(destination: DeeplinkView(), label: "DeeplinkView")
           NavigationLinkButton(destination: PickerView(), label: "PickerView")
           NavigationLinkButton(destination: TextFieldView(), label: "TextFieldView")
           NavigationLinkButton(destination: ButtonView(), label: "ButtonView")
@@ -55,11 +57,11 @@ struct ContentView: View {
       }
       .containerRelativeFrame([.horizontal, .vertical])
       .background(!isActivated ? Color.white : Color(hex: 0xd8a1fb))
-      .navigationBarHidden(true)
+      .onTapGesture {
+        self.isActivated.toggle()
+      }
       .navigationBarTitle("ContentView")
-    }
-    .onTapGesture {
-      self.isActivated.toggle()
+      .navigationBarHidden(true)
     }
   }
 }
